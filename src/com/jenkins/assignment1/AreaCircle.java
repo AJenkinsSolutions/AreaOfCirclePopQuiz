@@ -20,8 +20,8 @@ public class AreaCircle {
 		
 		/**
 		 * Calculates the area of circle  
-		 * @param r Radius double
-		 * @return, area of circle double 
+		 * @param r, Represents radius as a double
+		 * @return, Area of circle as a double 
 		 */
 		public static double calcArea(double r) {
 			area = pi*(r*r);
@@ -30,7 +30,7 @@ public class AreaCircle {
 		
 		/**
 		 * Displays double to screen 
-		 * @param a
+		 * @param a, Represents area 
 		 */
 		public static void displayDouble(double a ) {
 			System.out.println(a);
