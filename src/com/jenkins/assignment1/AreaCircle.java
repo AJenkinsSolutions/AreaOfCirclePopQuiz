@@ -1,24 +1,43 @@
 package com.jenkins.assignment1;
+/**
+ * 
+ * @author apjenkins
+ * @Class section 
+ * Instructor 
+ * Date
+ * This program calculates the area of circle
+ * Displays the result in the console
+ */
 
 public class AreaCircle {
-	//Instance Fields
+	
+		/**
+		 * Public instance variables for our calculate area functionality 
+		 */
 		public static double area;
 		public static double radius;
 		public static final double pi = 3.14; 
 		
-		//Calculate area of circle
+		/**
+		 * Calculates the area of circle  
+		 * @param r Radius double
+		 * @return, area of circle double 
+		 */
 		public static double calcArea(double r) {
 			area = pi*(r*r);
 			return area;
 		}
-		//Display return value
-		public static void displayArea(double a ) {
+		
+		/**
+		 * Displays double to screen 
+		 * @param a
+		 */
+		public static void displayDouble(double a ) {
 			System.out.println(a);
 		}
 
 		public static void main(String[] args) {
-			// TODO Auto-generated method stub
-			AreaCircle.displayArea(AreaCircle.calcArea(3));
+			AreaCircle.displayDouble(AreaCircle.calcArea(5));
 
 		}
 
