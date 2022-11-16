@@ -16,7 +16,7 @@ public class AreaCircle {
 		 */
 		public static double area;
 		public static double radius;
-		public static final double pi = 3.14; 
+		public static final double PI = 3.14; 
 		
 		/**
 		 * Calculates the area of circle  
@@ -24,7 +24,7 @@ public class AreaCircle {
 		 * @return, Area of circle as a double 
 		 */
 		public static double calcArea(double r) {
-			area = pi*(r*r);
+			area = PI*(r*r);
 			return area;
 		}
 		
